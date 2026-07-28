@@ -10,3 +10,6 @@ function daysOfAYear(year){
 		return 365;
 	}
 }
+
+let year = Number(prompt("Enter the year:"));
+alert(daysOfAYear(year));
